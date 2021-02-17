@@ -1,8 +1,9 @@
 # Lesson 1: Outputting a String
 
-puts "What is your name?"
-
 # Lesson 2: Prompting User Input
 
-name = gets
-puts "Hey, #{name}! Nice to meet you!"
+puts "What is your favorite color?"
+color = gets.chop
+if color == "blue"
+puts "Wow! My favorite color is #{color} also!"
+end
